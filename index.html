@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="root">
+    <!-- <h2>Hello Sachin</h2> -->
+  </div>
+
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+  <script>
+  //  let h2 = document.createElement('h2')
+  //  h2.textContent = 'Hello Sachin'
+  //  console.log(h2)
+  // var root = document.getElementById('root')
+  // console.log(root)
+  // root.appendChild(h2)
+
+  //React
+
+  let h2 = React.createElement('h2', null, 'Hello Sachin')
+
+  // let root = document.getElementById('root')
+
+  let root = ReactDOM.createRoot(document.getElementById('root'))
+
+  root.render(h2)
+
+  </script>
+</body>
+</html>
