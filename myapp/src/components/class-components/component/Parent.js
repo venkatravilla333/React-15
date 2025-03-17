@@ -1,13 +1,25 @@
-import React, {Component} from 'react'
+import React from "react"
 
-class Parent extends Component {
+class Parent extends React.Component{
+  constructor() {
+    super()
+    this.state = {
+      name:  'sachin'
+    }
+  }
+
   render() {
-    return <h2>Class component</h2>
+    return <h3>Class com: {this.state.name}</h3>
   }
   
 }
 
 export default Parent
 
-// var x = new Parent()
-// console.log(x)
+
+
+
+
+
+
+
