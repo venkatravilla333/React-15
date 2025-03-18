@@ -4,7 +4,11 @@
 // import Jsx from "./components/functional-components/JSX/Jsx"
 // import Parent from "./components/functional-components/component/Parent"
 
-import Parent from "./components/class-components/Props/Parent-Child/Parent"
+import Parent from "./components/class-components/State/Sync-Data/Local-State/Parent"
+
+// import Parent from "./components/functional-components/State/Sync-Data/Local-State/Simple-Data/Parent"
+
+// import Parent from "./components/class-components/Props/Parent-Child/Parent"
 
 // import Parent from "./components/functional-components/Props/Child-Child/Parent"
 
@@ -15,7 +19,7 @@ import Parent from "./components/class-components/Props/Parent-Child/Parent"
 
 function App() {
   return <div>
-    <h2>App component</h2>
+    {/* <h2>App component</h2> */}
     {/* {Child()} */}
     {/* <Child/> */}
     {/* <Parent/> */}
@@ -24,6 +28,7 @@ function App() {
     {/* <Parent/>
     <Child/> */}
     {/* <Jsx/> */}
+    {/* <Parent/> */}
     <Parent/>
   </div>
 }
