@@ -5,6 +5,7 @@
 // import Parent from "./components/functional-components/component/Parent"
 
 import Parent from "./components/class-components/State/Sync-Data/Local-State/Parent"
+import A from "./components/functional-components/State/Sync-Data/Local-State/Simple-Data/A"
 
 // import Parent from "./components/functional-components/State/Sync-Data/Local-State/Simple-Data/Parent"
 
@@ -29,7 +30,8 @@ function App() {
     <Child/> */}
     {/* <Jsx/> */}
     {/* <Parent/> */}
-    <Parent/>
+    {/* <Parent/> */}
+    <A/>
   </div>
 }
 
