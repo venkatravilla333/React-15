@@ -7,7 +7,7 @@ var initialtate = {
 }
 
 export function cakeReducer(state=initialtate, action) {
-  console.log(action)
+  // console.log(action)
   switch (action.type) {
     case BUY_CAKE:
       return {
