@@ -1,5 +1,14 @@
+// import { combineReducers, creatStore } from 'redux'
+import { configureStore } from '@reduxjs/toolkit'
+import cakeReducer from './Slices/cakeSlice'
+import curdReducer from './Slices/curdSlice'
 
-import {configureStore} from '@reduxjs/toolkit'
+// var rootReducer = combineReducers({
+//   cake: cakeReducer,
+//   curd: curdReducer
+// })
+
+// var store = creatStore(rootReducer
 
 export let store = configureStore({
   reducer: {

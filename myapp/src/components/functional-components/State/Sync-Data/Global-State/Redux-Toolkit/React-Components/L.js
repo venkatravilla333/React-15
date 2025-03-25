@@ -1,19 +1,18 @@
-import React, { useContext, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { buyCake } from '../Redux-core/cake/cakeAction'
-import { buyCurd } from '../Redux-core/curd/curdAction'
+import { buyCake } from '../Slices/cakeSlice'
+import { buyCurd } from '../Slices/curdSlice'
+
 
 
 function L() {
-  // var x = store.getState()
- var noOfCakes = useSelector((state) => {
-    return state.cake.noOfCakes
+  var noOfCakes = useSelector((state) => {
+   return state.cake.noOfCakes  
  })
- var noOfCurds = useSelector((state) => {
-    return state.curd.noOfCurds
+  var noOfCurds = useSelector((state) => {
+   return state.curd.noOfCurds 
  })
-  
-  var dispatch = useDispatch()
+
+ var dispatch = useDispatch()
 
   return (
     <div>
