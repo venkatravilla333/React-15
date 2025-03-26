@@ -16,9 +16,9 @@ function L() {
 
   return (
     <div>
-      <h3>No of cakes: {noOfCakes}</h3>
+      <h3>L: No of cakes: {noOfCakes}</h3>
       <button onClick={()=>dispatch(buyCake())}>buyCake</button>
-      <h3>No of cakes: {noOfCurds}</h3>
+      <h3>L: No of cakes: {noOfCurds}</h3>
       <button onClick={()=>dispatch(buyCurd())}>buyCake</button>
     </div>
   )

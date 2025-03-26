@@ -4,8 +4,14 @@
 // import Jsx from "./components/functional-components/JSX/Jsx"
 // import Parent from "./components/functional-components/component/Parent"
 
-import A from "./components/functional-components/State/Sync-Data/Global-State/Redux-Toolkit/React-Components/A"
-import Cake from "./components/functional-components/State/Sync-Data/Local-State/Complex-Data/Cake"
+import A from "./components/class-components/State/Sync-Data/Global-State/Redux/React-Components/A"
+
+// import A from "./components/functional-components/State/Sync-Data/Global-State/Context-API/A"
+
+// import A from "./components/functional-components/State/Sync-Data/Global-State/Redux-Toolkit/React-Components/A"
+
+// import A from "./components/functional-components/State/Sync-Data/Global-State/Redux-Toolkit/React-Components/A"
+// import Cake from "./components/functional-components/State/Sync-Data/Local-State/Complex-Data/Cake"
 
 
 
@@ -48,7 +54,11 @@ function App() {
     {/* <A/> */}
     {/* <A/> */}
     {/* <A/> */}
-    <Cake/>
+    {/* <Cake/> */}
+    
+    {/* <A/> */}
+    {/* <A/> */}
+    <A/>
   </div>
 }
 

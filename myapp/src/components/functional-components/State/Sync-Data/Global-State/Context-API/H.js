@@ -1,10 +1,11 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
+import { nameContext } from './A'
 
 function H() {
- 
+ var {name} = useContext(nameContext)
   return (
     <div>
-      <h3>H:</h3>
+      <h3>H: {name}</h3>
     </div>
   )
 }

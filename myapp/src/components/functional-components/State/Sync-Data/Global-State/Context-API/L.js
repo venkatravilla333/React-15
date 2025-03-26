@@ -4,12 +4,13 @@ import { nameContext, ageContext } from './A'
 
 function L() {
   // var name = nameContext._currentValue
-  var name = useContext(nameContext)
-  var age = useContext(ageContext)
+  var {name, setName } = useContext(nameContext)
+  var {age, setAge} = useContext(ageContext)
   return (
     <div>
       <h3>L: {name}</h3>
       <h3>L: {age}</h3>
+      <button onClick={()=>setName('dhoni')}>update name</button>
     </div>
   )
 }
