@@ -4,7 +4,12 @@
 // import Jsx from "./components/functional-components/JSX/Jsx"
 // import Parent from "./components/functional-components/component/Parent"
 
-import A from "./components/class-components/State/Sync-Data/Global-State/Redux/React-Components/A"
+import Parent from "./components/class-components/life-cycle-methods/2.updating/Parent"
+import Count from "./components/class-components/life-cycle-methods/Count"
+
+// import Parent from "./components/class-components/life-cycle-methods/2.updating/Parent"
+
+// import A from "./components/class-components/State/Sync-Data/Global-State/Redux/React-Components/A"
 
 // import A from "./components/functional-components/State/Sync-Data/Global-State/Context-API/A"
 
@@ -58,7 +63,9 @@ function App() {
     
     {/* <A/> */}
     {/* <A/> */}
-    <A/>
+    {/* <A/> */}
+    <Parent/>
+    {/* <Count/> */}
   </div>
 }
 
