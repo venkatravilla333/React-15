@@ -4,8 +4,23 @@
 // import Jsx from "./components/functional-components/JSX/Jsx"
 // import Parent from "./components/functional-components/component/Parent"
 
-import Parent from "./components/class-components/life-cycle-methods/2.updating/Parent"
-import Count from "./components/class-components/life-cycle-methods/Count"
+import Parent from "./components/class-components/life-cycle-methods/4.error-boundry/Parent"
+import Container from "./components/class-components/side-effects/cleanup-task/Container"
+
+// import Browser from "./components/class-components/side-effects/runs-only-once/Browser"
+// import Container from "./components/functional-components/side-effects/cleanup-task/Container"
+
+// import Parent from "./components/class-components/side-effects/runs-conditionally/Parent"
+// import Browser from "./components/functional-components/side-effects/runs-only-once/Browser"
+
+// import Parent from "./components/functional-components/side-effects/runs-conditionally/Parent"
+
+// import Parent from "./components/class-components/side-effects/every-render/Parent"
+
+// import Parent from "./components/functional-components/side-effects/every-render/Parent"
+
+// import Parent from "./components/class-components/life-cycle-methods/2.updating/Parent"
+// import Count from "./components/class-components/life-cycle-methods/Count"
 
 // import Parent from "./components/class-components/life-cycle-methods/2.updating/Parent"
 
@@ -64,8 +79,16 @@ function App() {
     {/* <A/> */}
     {/* <A/> */}
     {/* <A/> */}
-    <Parent/>
+    {/* <Parent/> */}
     {/* <Count/> */}
+    {/* <Parent/> */}
+    {/* <Parent/> */}
+    {/* <Parent/> */}
+    {/* <Parent/> */}
+    {/* <Browser/> */}
+    {/* <Container/> */}
+    {/* <Container/> */}
+    <Parent/>
   </div>
 }
 
