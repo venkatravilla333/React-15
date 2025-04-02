@@ -4,8 +4,13 @@
 // import Jsx from "./components/functional-components/JSX/Jsx"
 // import Parent from "./components/functional-components/component/Parent"
 
-import Parent from "./components/class-components/life-cycle-methods/4.error-boundry/Parent"
-import Container from "./components/class-components/side-effects/cleanup-task/Container"
+import Getposts from "./components/class-components/side-effects/api-calls/get-data/Getposts"
+
+// import Parent from "./components/functional-components/Performance/conditional-rendering/Parent"
+// import Getposts from "./components/functional-components/side-effects/api-calls/get-data/Getposts"
+
+// import Parent from "./components/class-components/life-cycle-methods/4.error-boundry/Parent"
+// import Container from "./components/class-components/side-effects/cleanup-task/Container"
 
 // import Browser from "./components/class-components/side-effects/runs-only-once/Browser"
 // import Container from "./components/functional-components/side-effects/cleanup-task/Container"
@@ -88,7 +93,10 @@ function App() {
     {/* <Browser/> */}
     {/* <Container/> */}
     {/* <Container/> */}
-    <Parent/>
+    {/* <Parent/> */}
+    {/* <Parent/> */}
+    {/* <Getposts/> */}
+    <Getposts/>
   </div>
 }
 
