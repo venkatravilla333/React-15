@@ -4,7 +4,12 @@
 // import Jsx from "./components/functional-components/JSX/Jsx"
 // import Parent from "./components/functional-components/component/Parent"
 
-import Getposts from "./components/class-components/side-effects/api-calls/get-data/Getposts"
+import GetData from "./components/functional-components/State/Async-Data/global-state/Context-Api/useReducer/GetData"
+
+// import GetData from "./components/functional-components/State/Async-Data/global-state/Context-Api/useState/GetData"
+
+// import Getposts from "./components/class-components/side-effects/api-calls/get-data/Getposts"
+// import GetData from "./components/functional-components/State/Async-Data/local-state/complex-data/GetData"
 
 // import Parent from "./components/functional-components/Performance/conditional-rendering/Parent"
 // import Getposts from "./components/functional-components/side-effects/api-calls/get-data/Getposts"
@@ -96,7 +101,9 @@ function App() {
     {/* <Parent/> */}
     {/* <Parent/> */}
     {/* <Getposts/> */}
-    <Getposts/>
+    {/* <Getposts/> */}
+    {/* <GetData/> */}
+    <GetData/>
   </div>
 }
 
