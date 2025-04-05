@@ -4,7 +4,11 @@
 // import Jsx from "./components/functional-components/JSX/Jsx"
 // import Parent from "./components/functional-components/component/Parent"
 
-import GetData from "./components/functional-components/State/Async-Data/global-state/Context-Api/useReducer/GetData"
+import A from "./components/functional-components/State/Async-Data/global-state/Toolkit/React-Components/A"
+
+// import A from "./components/functional-components/State/Async-Data/global-state/React-redux/React-Components/A"
+
+// import GetData from "./components/functional-components/State/Async-Data/global-state/Context-Api/useReducer/GetData"
 
 // import GetData from "./components/functional-components/State/Async-Data/global-state/Context-Api/useState/GetData"
 
@@ -103,7 +107,8 @@ function App() {
     {/* <Getposts/> */}
     {/* <Getposts/> */}
     {/* <GetData/> */}
-    <GetData/>
+    {/* <GetData/> */}
+    <A/>
   </div>
 }
 
