@@ -4,7 +4,16 @@
 // import Jsx from "./components/functional-components/JSX/Jsx"
 // import Parent from "./components/functional-components/component/Parent"
 
-import A from "./components/functional-components/State/Async-Data/global-state/Toolkit/React-Components/A"
+import Parent from "./components/class-components/Events-Binding/Parent"
+
+
+// import Lists from "./components/functional-components/Lists-Rendering/Lists"
+
+// import Parent from "./components/class-components/Destructuring/Parent"
+
+// import Parent from "./components/functional-components/Destructuring/Parent"
+
+// import A from "./components/functional-components/State/Async-Data/global-state/Toolkit/React-Components/A"
 
 // import A from "./components/functional-components/State/Async-Data/global-state/React-redux/React-Components/A"
 
@@ -108,7 +117,12 @@ function App() {
     {/* <Getposts/> */}
     {/* <GetData/> */}
     {/* <GetData/> */}
-    <A/>
+    {/* <A/> */}
+    {/* <Parent/> */}
+    {/* <Parent/> */}
+    {/* <Parent/> */}
+    {/* <Lists/> */}
+    <Parent/>
   </div>
 }
 
