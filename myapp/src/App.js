@@ -5,6 +5,7 @@
 // import Parent from "./components/functional-components/component/Parent"
 
 import Parent from "./components/class-components/Events-Binding/Parent"
+import Form from "./components/functional-components/Validation/Form"
 
 
 // import Lists from "./components/functional-components/Lists-Rendering/Lists"
@@ -122,7 +123,8 @@ function App() {
     {/* <Parent/> */}
     {/* <Parent/> */}
     {/* <Lists/> */}
-    <Parent/>
+    {/* <Parent/> */}
+    <Form/>
   </div>
 }
 
