@@ -1,0 +1,13 @@
+import React from 'react'
+
+function Home() {
+  return (
+    <div>
+      <h3>Home Component</h3>
+
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic perferendis soluta sunt odit, perspiciatis omnis accusamus obcaecati quam molestias deleniti veniam repellat quia id provident non atque! Veniam similique quae vel! Doloribus, ullam illo! Veniam quae error tempora exercitationem expedita aut sequi aliquid debitis. Optio voluptatum pariatur voluptas sint maiores sunt molestiae id corrupti nostrum dolor ipsa ullam omnis non aut aliquid voluptate amet, assumenda, expedita dolore repellat atque eius ipsum. Fugiat rem dolorum beatae dolor quos praesentium consectetur sapiente dignissimos sint alias consequatur mollitia sed quo, cupiditate ratione iure neque voluptatem vel ipsum sunt tempore, error ea pariatur facere! Rem reprehenderit quibusdam dolor, sit voluptas voluptatum laudantium sed eum, amet, nostrum blanditiis alias eveniet doloremque eaque excepturi! Praesentium consectetur nobis eveniet a, ipsum deleniti, rem quae vel ratione maiores ullam fuga asperiores adipisci quis et consequuntur facilis blanditiis magni dolor nesciunt aut ea nulla odit! Eligendi est, quia magni ad, laborum atque sed nostrum voluptas officia perferendis obcaecati voluptate aspernatur. Eos repudiandae quia facilis saepe odit explicabo accusamus voluptatum officia sunt. Rerum quibusdam minus illo itaque iure voluptates vero dolorum quod magnam, ducimus magni doloremque? Earum aliquid, praesentium iusto tempore molestias voluptatibus! Ex, omnis est nesciunt, iste possimus mollitia aut quisquam quibusdam odio dolorem deleniti ratione, repellendus delectus optio adipisci veritatis perferendis aliquam eveniet? Quos accusamus ipsam quas, neque ad reiciendis officiis a excepturi saepe cumque facere laborum aspernatur aut repellendus molestiae. Modi sapiente cumque debitis, commodi facere, molestias iste nihil expedita illo accusantium fuga? Obcaecati enim ad iste, vel ipsa eaque fugit aspernatur tempora culpa dignissimos dolor optio impedit labore alias molestias? Repudiandae veniam natus quae placeat! Necessitatibus, magnam optio. Exercitationem accusamus ad dicta laudantium praesentium? Voluptas error suscipit saepe! Deserunt quae maiores error nam atque, dignissimos eligendi adipisci voluptatibus quam harum eaque ipsa iure sit asperiores minus? </p>
+    </div>
+  )
+}
+
+export default Home
