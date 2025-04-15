@@ -1,11 +1,17 @@
 import React from 'react'
-import { useParams } from 'react-router-dom'
+import { useLocation, useParams } from 'react-router-dom'
 
 function ProductDescription() {
 
-  let {id} = useParams()
+  let { id } = useParams()
+  let url = useLocation()
+  console.log(url)
   return (
-    <h2>ProductDescription {id}</h2>
+    <div>
+      <h2>ProductDescription {id}</h2>
+      <p>Name: {url.state.name}</p>
+      <p>Price: {url.state.price}</p>
+    </div>
   )
 }
 

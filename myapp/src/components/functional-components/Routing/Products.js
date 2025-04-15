@@ -17,7 +17,7 @@ var [products, setProducts] =  useState([
         {
           products.map((product) => {
             return <li>
-                      <Link to={`/products/${product.id}`}>{product.name}</Link>
+                      <Link state={product} to={`/products/${product.id}`}>{product.name}</Link>
                    </li>
               })
             }
