@@ -8,6 +8,12 @@ import '../src/components/functional-components/Routing/style.css'
 import Header from './components/functional-components/Routing/Header'
 import ProductDescription from './components/functional-components/Routing/ProductDescription'
 import Pagenotfound from './components/functional-components/Routing/Pagenotfound'
+import A from './components/class-components/Remove-Duplicate-Logic/A'
+import B from './components/class-components/Remove-Duplicate-Logic/B'
+import C from './components/class-components/Remove-Duplicate-Logic/C'
+// import A from './components/functional-components/Performance/Remove-Duplicate-Logic/A'
+// import B from './components/functional-components/Performance/Remove-Duplicate-Logic/B'
+// import C from './components/functional-components/Performance/Remove-Duplicate-Logic/C'
 let About = React.lazy(()=> import('./components/functional-components/Routing/About'))
 
 function App() {
@@ -17,7 +23,10 @@ function App() {
   
   return (
     <div>
-      <Header/>
+      <Header />
+      <A />
+      <B />
+      <C />
       {/* {url.pathname !== '/about' && <Header/>} */}
       <Routes>
         <Route path='/' element={<Home/> } />
